@@ -22,7 +22,7 @@
   .story{
     background: linear-gradient(to bottom right,  #0b0933, #0f3266);
     color: white;
-  
+    height: 100%;
   }
   h5:before {
     content: 'The Lost City Of ';
@@ -36,5 +36,20 @@ h5:after {
 }
 
 .section3{
+  width: 200px;
+  background: linear-gradient(to bottom right,  #c1c0db, #a6bcdf);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
+.Card1{
+    width: 30%;
+    background: linear-gradient(to bottom right,  #c1c0db, #a6bcdf);
+}
+
+.Card2{
+    width: 70%;
+    background: linear-gradient(to bottom right,  #0b0933, #0f3266);
 }

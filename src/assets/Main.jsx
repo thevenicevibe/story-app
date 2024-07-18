@@ -8,9 +8,11 @@ const Main = () => {
     <>
     <div className='new-container'>
     <CardList/>
-
-    <button className='btn btn-primary border-cyan-900'>&laquo; Previous</button>
-    <Link to='/story' className='btn btn-primary border-cyan-900'>Next &raquo;</Link>
+<div className="btn2 flex flex-row justify-around">
+<button className='btn btn-primary border-cyan-900 rounded-full'>&laquo; Previous</button>
+<Link to='/story' className='btn btn-primary border-cyan-900 rounded-full'>Next &raquo;</Link>
+</div>
+    
     </div>
     
     </>
